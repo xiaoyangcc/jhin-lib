@@ -19,5 +19,27 @@
         "files":[
             "src/Helpers/functions.php"
         ]
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        },
+        "jhin/lib": {
+            "type": "package",
+            "package": {
+                "name": "jhin/lib",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:xiaoyangcc/jhin-lib.git",
+                    "reference": "master"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Jhin\\Lib\\": "src"
+                    }
+                }
+            }
+        }
     }
 }
