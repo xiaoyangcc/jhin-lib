@@ -20,13 +20,17 @@
       "src/Helpers/functions.php"
     ]
   },
+  "config": {
+    "secure-http": false,
+    "process-timeout": 120
+  },
   "repositories": {
     "packagist": {
       "type": "composer",
       "url": "https://mirrors.aliyun.com/composer/"
     },
     "jhin/lib": {
-      "type": "vcs",
+      "type": "git",
       "url": "git@github.com:xiaoyangcc/jhin-lib.git"
     }
   }
