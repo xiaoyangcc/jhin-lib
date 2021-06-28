@@ -1,0 +1,23 @@
+{
+    "name": "jhin/lib",
+    "type": "library",
+    "description": "",
+    "authors": [
+        {
+            "name": "Jhinwy",
+            "email": "1257015959@qq.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^6.0|^8.0",
+        "laravel/helpers": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jhin\\Lib\\": "src"
+        },
+        "files":[
+            "src/Helpers/functions.php"
+        ]
+    }
+}
